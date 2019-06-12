@@ -9,9 +9,9 @@ function doPost(e) {
 
   if(tokenCHK(jsonParse(e,"auth"))){ 
     toGmail(jsonParse(e,"mailbody"));
-    output.setContent(JSON.stringify({ message: "success!" }));
+    output.setContent(JSON.stringify({ message: "success" }));
   }else{
-    output.setContent(JSON.stringify({ message: "fail!" }));
+    output.setContent(JSON.stringify({ message: "fail" }));
   }
   Logger.log("【END】doPost");
   return output; 

@@ -1,2 +1,2 @@
 # Webhook2Gmail
-IFTTT2Gmail送信の代替
+webhook(post)を契機にGメール送信を実行するGoogle apps script用のコード

@@ -27,7 +27,6 @@ function jsonParse(e,parseName){
   return param;
 }
 
-//TODO:セキュリティ実装
 function tokenCHK(auth){
   Logger.log("【START】tokenCHK");
   var date = new Date();
